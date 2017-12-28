@@ -1,9 +1,10 @@
 /*
 ||
 || @file 	TimedAction.cpp
-|| @version	1.6
+|| @version	2.0
 || @author	Alexander Brevig
 || @contact	alexanderbrevig@gmail.com
+|| @updated by	Glumgad https://www.instructables.com/member/Glumgad/
 ||
 || @description
 || | Provide an easy way of triggering functions at a set interval
@@ -30,7 +31,7 @@
 #ifndef TIMEDACTION_H
 #define TIMEDACTION_H
 
-#include "WProgram.h"
+#include "arduino.h"
 
 #define NO_PREDELAY 0
 
@@ -59,6 +60,7 @@ class TimedAction {
 
 /*
 || @changelog
+|| | 2.0 2017-12-28 - Glumgad : Updated for Arduino ver 1.6.** Updated for Arduino IDE ver 1.6.** compatibility 
 || | 1.6 2010-10-08 - Alexander Brevig : Changed datatype of interval from unsigned int to unsigned long
 || | 1.5 2009-10-25 - Alexander Brevig : Added setInterval , requested by: Boris Neumann
 || | 1.4 2009-05-06 - Alexander Brevig : Added reset()
