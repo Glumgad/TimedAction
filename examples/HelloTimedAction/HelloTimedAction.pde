@@ -1,6 +1,7 @@
 //this sketch will blink an LED at pin 13 each second
 #include <TimedAction.h>
 
+void blink();
 //this initializes a TimedAction class that will change the state of an LED every second.
 TimedAction timedAction = TimedAction(1000,blink);
 
